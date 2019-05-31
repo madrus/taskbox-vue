@@ -1,12 +1,13 @@
 module.exports = {
   moduleFileExtensions: ["js", "jsx", "json", "vue"],
   transform: {
-    "^.+\\.vue$": "vue-jest",
+    ".*\\.(vue)$": "<rootDir>/node_modules/jest-vue-preprocessor",
     ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$":
       "jest-transform-stub",
     "^.+\\.jsx?$": "babel-jest"
   },
   transformIgnorePatterns: ["/node_modules/"],
+  setupFiles: ["<rootDir>/.jest/register-context.js"],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1"
   },
