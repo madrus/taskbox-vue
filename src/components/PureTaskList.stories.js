@@ -1,7 +1,7 @@
 import { storiesOf } from "@storybook/vue";
 import { task } from "./Task.stories";
 
-import TaskList from "./TaskList";
+import PureTaskList from "./PureTaskList";
 import { methods } from "./Task.stories";
 
 export const defaultTaskList = [
@@ -27,7 +27,7 @@ const paddedList = () => {
 storiesOf("TaskList", module)
   .addDecorator(paddedList)
   .add("default", () => ({
-    components: { TaskList },
+    components: { TaskList: PureTaskList },
     template: `<task-list :tasks="tasks" @archiveTask="onArchiveTask" @pinTask="onPinTask"/>`,
     data: () => ({
       tasks: defaultTaskList
@@ -35,7 +35,7 @@ storiesOf("TaskList", module)
     methods
   }))
   .add("withPinnedTasks", () => ({
-    components: { TaskList },
+    components: { TaskList: PureTaskList },
     template: `<task-list :tasks="tasks" @archiveTask="onArchiveTask" @pinTask="onPinTask"/>`,
     data: () => ({
       tasks: withPinnedTasks
@@ -43,12 +43,12 @@ storiesOf("TaskList", module)
     methods
   }))
   .add("loading", () => ({
-    components: { TaskList },
+    components: { TaskList: PureTaskList },
     template: `<task-list loading @archiveTask="onArchiveTask" @pinTask="onPinTask"/>`,
     methods
   }))
   .add("empty", () => ({
-    components: { TaskList },
+    components: { TaskList: PureTaskList },
     template: `<task-list @archiveTask="onArchiveTask" @pinTask="onPinTask"/>`,
     methods
   }));
