@@ -6,7 +6,29 @@ For Project Setup see [Project setup](#project-setup).
 
 ## Personal Notes
 
-...
+### Custom Webpack Config
+
+Based on [Custom Webpack Config](https://storybook.js.org/docs/configurations/custom-webpack-config/#full-control-mode).
+
+#### Debug the default webpack config
+
+To effectively customise the webpack config, you might need to get the full default config it's using.
+
+- Create a `.storybook/webpack.config.js` file.
+- Edit its contents:
+	``` javascript
+	module.exports = async ({ config }) => console.dir(config.plugins, { depth: null }) || config;
+  ```
+- Then run storybook:
+	``` bash
+	yarn storybook --debug-webpack
+	```
+
+The console should log the entire config, for you to inspect.
+
+### Actions
+
+__Actions_ help you verify interactions when building UI components in isolation. Oftentimes you won't have access to the functions and state you have in context of the app. Use `action()` to stub them in.
 
 ---
 
