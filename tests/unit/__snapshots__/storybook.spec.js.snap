@@ -38,7 +38,7 @@ exports[`Storyshots Task archived 1`] = `
 
 exports[`Storyshots Task default 1`] = `
 <div
-  class="list-item TASK_INBOX"
+  class="list-item TASK_PINNED"
 >
   <label
     class="checkbox"
@@ -129,7 +129,7 @@ exports[`Storyshots TaskList default 1`] = `
       class="list-items"
     >
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -166,7 +166,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -203,7 +203,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -240,7 +240,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -277,7 +277,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -314,7 +314,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -365,7 +365,25 @@ exports[`Storyshots TaskList empty 1`] = `
     <div
       class="list-items"
     >
-      empty 
+      <div
+        class="wrapper-message"
+      >
+        <span
+          class="icon-check"
+        />
+         
+        <div
+          class="title-message"
+        >
+          You have no tasks
+        </div>
+         
+        <div
+          class="subtitle-message"
+        >
+          Sit back and relax
+        </div>
+      </div>
     </div>
      
     <!---->
@@ -381,7 +399,121 @@ exports[`Storyshots TaskList loading 1`] = `
     <div
       class="list-items"
     >
-       loading 
+      <div
+        class="loading-item"
+      >
+        <span
+          class="glow-checkbox"
+        />
+         
+        <span
+          class="glow-text"
+        >
+          <span>
+            Loading
+          </span>
+           
+          <span>
+            cool
+          </span>
+           
+          <span>
+            state
+          </span>
+        </span>
+      </div>
+      <div
+        class="loading-item"
+      >
+        <span
+          class="glow-checkbox"
+        />
+         
+        <span
+          class="glow-text"
+        >
+          <span>
+            Loading
+          </span>
+           
+          <span>
+            cool
+          </span>
+           
+          <span>
+            state
+          </span>
+        </span>
+      </div>
+      <div
+        class="loading-item"
+      >
+        <span
+          class="glow-checkbox"
+        />
+         
+        <span
+          class="glow-text"
+        >
+          <span>
+            Loading
+          </span>
+           
+          <span>
+            cool
+          </span>
+           
+          <span>
+            state
+          </span>
+        </span>
+      </div>
+      <div
+        class="loading-item"
+      >
+        <span
+          class="glow-checkbox"
+        />
+         
+        <span
+          class="glow-text"
+        >
+          <span>
+            Loading
+          </span>
+           
+          <span>
+            cool
+          </span>
+           
+          <span>
+            state
+          </span>
+        </span>
+      </div>
+      <div
+        class="loading-item"
+      >
+        <span
+          class="glow-checkbox"
+        />
+         
+        <span
+          class="glow-text"
+        >
+          <span>
+            Loading
+          </span>
+           
+          <span>
+            cool
+          </span>
+           
+          <span>
+            state
+          </span>
+        </span>
+      </div>
     </div>
      
     <!---->
@@ -404,7 +536,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
       class="list-items"
     >
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -441,7 +573,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -478,7 +610,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -515,7 +647,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"
@@ -552,7 +684,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_INBOX"
+        class="list-item TASK_PINNED"
       >
         <label
           class="checkbox"

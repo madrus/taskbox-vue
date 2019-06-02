@@ -30,6 +30,20 @@ The console should log the entire config, for you to inspect.
 
 __Actions_ help you verify interactions when building UI components in isolation. Oftentimes you won't have access to the functions and state you have in context of the app. Use `action()` to stub them in.
 
+### Snapshot Testing
+
+We run our snapshot unit tests with:
+
+``` bash
+yarn test:unit
+```
+
+In some cases we notice that snapshots don't match the tests but the difference has nothing to do with the functional changes. E.g. extra empty lines here and there. We can fix the match by running the update command:
+
+``` bash
+yarn test:unit -u
+```
+
 ---
 
 ## Troubleshooting

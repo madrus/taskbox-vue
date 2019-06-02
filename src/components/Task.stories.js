@@ -6,7 +6,7 @@ import Task from "./Task";
 export const task = {
   id: "1",
   title: "Test Task",
-  state: "TASK_INBOX",
+  state: "TASK_PINNED",
   updatedAt: new Date(2019, 0, 1, 9, 0)
 };
 
