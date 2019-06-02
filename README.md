@@ -50,6 +50,21 @@ There are two ways to connect: with a Babel [plugin](https://github.com/smrq/bab
 
 We are using Vue.js in this project. I have tried to go the "macro" way but got compile time errors. Fortunately, the "plugin" way worked fine.
 
+### Storybook.spec.js
+
+After working through the tutorial later on I have come across a piece of code that may as well have helped to avoid the above mentioned error.
+
+Consider the suggested code of the `tests/unit/storybook.spec.js` file:
+
+``` js
+import registerRequireContextHook from "babel-plugin-require-context-hook/register";
+import initStoryshots from "@storybook/addon-storyshots";
+
+registerRequireContextHook();
+initStoryshots();
+```
+
+This means that we could have imported the `registerRequireContextHook` directly in the `tests/unit/storybook.spec.js` file instead of doing that in `.jest/register-context.js` and adding the latter to the `jest.config.js`.
 
 ---
 
