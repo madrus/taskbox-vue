@@ -1,14 +1,19 @@
 <template>
   <div id="app">
-    <h1>Temporary Dummy Page Title</h1>
+    <task-list />
   </div>
 </template>
 
 <script>
-import "./index.css";
+import store from "@/store";
+import TaskList from "@/components/TaskList";
+import "@/index.css";
 
 export default {
   name: "app",
-  components: {}
+  store,
+  components: {
+    TaskList
+  }
 };
 </script>
