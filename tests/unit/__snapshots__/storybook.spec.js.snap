@@ -38,7 +38,7 @@ exports[`Storyshots Task archived 1`] = `
 
 exports[`Storyshots Task default 1`] = `
 <div
-  class="list-item TASK_PINNED"
+  class="list-item TASK_INBOX"
 >
   <label
     class="checkbox"
@@ -129,7 +129,7 @@ exports[`Storyshots TaskList default 1`] = `
       class="list-items"
     >
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -166,7 +166,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -203,7 +203,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -240,7 +240,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -277,7 +277,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -314,7 +314,7 @@ exports[`Storyshots TaskList default 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -573,7 +573,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -610,7 +610,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -647,7 +647,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -684,7 +684,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
@@ -721,7 +721,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         </div>
       </div>
       <div
-        class="list-item TASK_PINNED"
+        class="list-item TASK_INBOX"
       >
         <label
           class="checkbox"
