@@ -80,6 +80,28 @@ initStoryshots();
 
 This means that we could have imported the `registerRequireContextHook` directly in the `tests/unit/storybook.spec.js` file instead of doing that in `.jest/register-context.js` and adding the latter to the `jest.config.js`.
 
+### This dependency was not found: core-js/modules/es6.array.find
+
+As of when I was working on this tutorial, the Storybook had dependency on the `core.js` version 2. This version has a number of `es6.array.*` modules. In the version 3 these modules were renamed to `es.array.*`. If you see this error this means that version 3 of `core-js` module is installed. This can be fixed.
+
+Add the following configuration to `.babelrc`:
+
+``` json
+"presets": [
+	["@vue/app", {
+		"useBuiltIns": "entry"
+	}],
+	["@babel/preset-env", {
+		"corejs": "core-js@3"
+	}]
+],
+```
+Install `@storybook/vue` package:
+
+``` bash
+yarn add -D @storybook/vue
+```
+
 ---
 
 ## Project setup
