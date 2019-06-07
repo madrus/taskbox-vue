@@ -1,5 +1,288 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots PureInboxScreen default 1`] = `
+<div>
+  <div
+    class="page lists-show"
+  >
+    <nav>
+      <h1
+        class="title-page"
+      >
+        <span
+          class="title-wrapper"
+        >
+          Taskbox
+        </span>
+      </h1>
+    </nav>
+     
+    <div>
+      <div>
+        <!---->
+         
+        <!---->
+         
+        <div
+          class="list-items"
+        >
+          <div
+            class="list-item TASK_INBOX"
+          >
+            <label
+              class="checkbox"
+            >
+              <input
+                disabled="disabled"
+                name="checked"
+                type="checkbox"
+              />
+               
+              <span
+                class="checkbox-custom"
+              />
+            </label>
+             
+            <div
+              class="title"
+            >
+              <input
+                placeholder="Input title"
+                readonly="readonly"
+                type="text"
+              />
+            </div>
+             
+            <div
+              class="actions"
+            >
+              <a>
+                <span
+                  class="icon-star"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="list-item TASK_INBOX"
+          >
+            <label
+              class="checkbox"
+            >
+              <input
+                disabled="disabled"
+                name="checked"
+                type="checkbox"
+              />
+               
+              <span
+                class="checkbox-custom"
+              />
+            </label>
+             
+            <div
+              class="title"
+            >
+              <input
+                placeholder="Input title"
+                readonly="readonly"
+                type="text"
+              />
+            </div>
+             
+            <div
+              class="actions"
+            >
+              <a>
+                <span
+                  class="icon-star"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="list-item TASK_INBOX"
+          >
+            <label
+              class="checkbox"
+            >
+              <input
+                disabled="disabled"
+                name="checked"
+                type="checkbox"
+              />
+               
+              <span
+                class="checkbox-custom"
+              />
+            </label>
+             
+            <div
+              class="title"
+            >
+              <input
+                placeholder="Input title"
+                readonly="readonly"
+                type="text"
+              />
+            </div>
+             
+            <div
+              class="actions"
+            >
+              <a>
+                <span
+                  class="icon-star"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="list-item TASK_INBOX"
+          >
+            <label
+              class="checkbox"
+            >
+              <input
+                disabled="disabled"
+                name="checked"
+                type="checkbox"
+              />
+               
+              <span
+                class="checkbox-custom"
+              />
+            </label>
+             
+            <div
+              class="title"
+            >
+              <input
+                placeholder="Input title"
+                readonly="readonly"
+                type="text"
+              />
+            </div>
+             
+            <div
+              class="actions"
+            >
+              <a>
+                <span
+                  class="icon-star"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="list-item TASK_INBOX"
+          >
+            <label
+              class="checkbox"
+            >
+              <input
+                disabled="disabled"
+                name="checked"
+                type="checkbox"
+              />
+               
+              <span
+                class="checkbox-custom"
+              />
+            </label>
+             
+            <div
+              class="title"
+            >
+              <input
+                placeholder="Input title"
+                readonly="readonly"
+                type="text"
+              />
+            </div>
+             
+            <div
+              class="actions"
+            >
+              <a>
+                <span
+                  class="icon-star"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="list-item TASK_INBOX"
+          >
+            <label
+              class="checkbox"
+            >
+              <input
+                disabled="disabled"
+                name="checked"
+                type="checkbox"
+              />
+               
+              <span
+                class="checkbox-custom"
+              />
+            </label>
+             
+            <div
+              class="title"
+            >
+              <input
+                placeholder="Input title"
+                readonly="readonly"
+                type="text"
+              />
+            </div>
+             
+            <div
+              class="actions"
+            >
+              <a>
+                <span
+                  class="icon-star"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots PureInboxScreen error 1`] = `
+<div>
+  <div
+    class="page lists-show"
+  >
+    <div
+      class="wrapper-message"
+    >
+      <span
+        class="icon-face-sad"
+      />
+       
+      <div
+        class="title-message"
+      >
+        Oh no!
+      </div>
+       
+      <div
+        class="subtitle-message"
+      >
+        Something went wrong
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Task archived 1`] = `
 <div
   class="list-item TASK_ARCHIVED"

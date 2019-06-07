@@ -90,17 +90,17 @@ Add the following configuration to `.babelrc`:
 "presets": [
 	["@vue/app", {
 		"useBuiltIns": "entry"
-	}],
-	["@babel/preset-env", {
-		"corejs": "core-js@3"
 	}]
 ],
 ```
+
 Install `@storybook/vue` package:
 
 ``` bash
 yarn add -D @storybook/vue
 ```
+
+It is now also ok to install `"babel-loader": "^8.0.6",` and no more incompatibility issues with verion 8.0.5.
 
 ---
 
